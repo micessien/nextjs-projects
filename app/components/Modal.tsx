@@ -5,7 +5,7 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ modalOpen, setModalOpen, children }) => {
-    // console.log("🚀 ~ modalOpen:", modalOpen)
+    console.log("🚀 ~ modalOpen:", modalOpen)
     
   return (
     <dialog id="my_modal_3" className={`modal ${modalOpen ? "modal-open":""}`}>
