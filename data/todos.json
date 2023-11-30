@@ -1,16 +1,12 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "buy milk with some orange"
-    },
-    {
       "id": "2",
       "text": "help my friend to find a girl"
     },
     {
       "id": "3",
-      "text": "go to beach"
+      "text": "go to gym new"
     },
     {
       "id": "4",
@@ -23,10 +19,6 @@
     {
       "id": "a66eee88-43dc-4a1b-8216-09d58f3e4a34",
       "text": "learn programming"
-    },
-    {
-      "id": "f3698a01-72da-4df5-8e4f-f3941597b059",
-      "text": "walking with my dog"
     }
   ]
 }
