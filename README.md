@@ -1,6 +1,6 @@
-# Welcome to the NextJS Todo App!
+# Welcome to the NextJS FullStack App!
 
-This Branch houses all of todo app's code — Packages and all the things
+This Branch houses all of Full Stack app's code — Tailwind Prisma Postgresql(railway) Typescript
 
 ## Setting up your development environment
 
