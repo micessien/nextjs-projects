@@ -54,4 +54,4 @@ TBD
 
 ## How to fix
 
-TBD
+- Sometime getPosts request does not have the exact Backend URL so you need to create `.env.local` and add `BASE_URL=http://localhost:3000`
