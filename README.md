@@ -35,7 +35,7 @@ Rename the following files:
 Now that you're all setup, run the migration and move to start frontend!
 
 ```shell
-pnpm prisma:migrate
+pnpm prisma:migrate && pnpm prisma generate
 ```
 
 ### 3. Start frontend dev server
