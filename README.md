@@ -24,15 +24,21 @@ pnpm i
 
 After installing dependencies, follow the steps below
 
-### Start backend server
+### 1. Set up Environment Variables
 
-Now that you're all setup, start the backend server and move to start frontend!
+Rename the following files:
+
+- `.env.sample` -> `.env`
+
+### 2. Run migration
+
+Now that you're all setup, run the migration and move to start frontend!
 
 ```shell
-pnpm json-server
+pnpm prisma:migrate
 ```
 
-### Start frontend dev server
+### 3. Start frontend dev server
 
 Now that you're all setup, start the frontend dev server and get to work!
 
