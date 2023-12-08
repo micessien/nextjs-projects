@@ -15,6 +15,7 @@ export default async function Home() {
   return (
     <main className="py-4 px-48">
       <FormPost/>
+      
       {data.map((post) => (
         <h1 className="text-lg py-6" key={post.id}>{post.title}</h1>
       ))}

@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Next.js13',
-  description: 'Full Stack Development | Tailwind Prisma Postgresql(railway) Typescript',
+  description: 'Full Stack Development | Tailwind Prisma Postgresql Typescript',
 }
 
 export default function RootLayout({
