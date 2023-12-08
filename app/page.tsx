@@ -1,5 +1,6 @@
 import Link from "next/link"
 import FormPost from "./Form"
+import Lists from "./components/Lists"
 
 async function getPosts() {
   const res = await fetch(`${process.env.BASE_URL}/api/getPosts`)
@@ -10,15 +11,14 @@ async function getPosts() {
 }
 
 export default async function Home() {
-  const data: {id: number, title: string}[] = await getPosts()
+  const data: {id: number, title: string, content: string}[] = await getPosts()
   
   return (
     <main className="py-4 px-48">
       <FormPost/>
-      
-      {data.map((post) => (
-        <h1 className="text-lg py-6" key={post.id}>{post.title}</h1>
-      ))}
+
+      <h1 className="mt-7 text-lg">Posts list</h1>
+      <Lists posts={data} />
     </main>
   )
 }
