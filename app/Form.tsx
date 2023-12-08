@@ -17,6 +17,7 @@ export default function Form() {
             body: JSON.stringify({title})
         })
         const res = await data.json()
+        setTitle("")
         router.refresh()
         if (!res.ok) setError(res.message)
     }
